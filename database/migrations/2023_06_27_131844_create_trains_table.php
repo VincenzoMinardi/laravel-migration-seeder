@@ -18,14 +18,14 @@ return new class extends Migration
             $table->string('company', 50);
             $table->string('departure_station', 50);
             $table->string('arrival_station', 50);
-            $table->time('departure_time');
             $table->dateTime('departure_date');
+            $table->time('departure_time');
             $table->time('arrival_time');
             $table->dateTime('arrival_date');
             $table->char('train_code', 8);
             $table->tinyInteger('number_of_carriages');
             $table->boolean('in_time');
-            $table->boolean('delete');
+            $table->boolean('deleted');
             $table->timestamps();
         });
     }
