@@ -7,8 +7,7 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        
-        
+        <h1 class="text-center">TRAINS</h1>
     </body>
 </html>
 
